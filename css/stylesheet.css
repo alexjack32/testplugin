@@ -1,0 +1,42 @@
+/*Acier BAT Text Gris
+  font-family: acier-bat-gris, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+Acier BAT Text Noir
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+Acier BAT Text Outline
+  font-family: acier-bat-outline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+Acier BAT Text Solid
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+Acier BAT Text Strokes
+  font-family: acier-bat-strokes, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+Casey
+  font-family: casey,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+
+.displayCTtime
+{
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-size: 44pt;
+}
