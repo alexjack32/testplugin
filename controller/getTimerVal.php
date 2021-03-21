@@ -15,7 +15,7 @@
     //$timeGdate = $_POST['gdate'];
 
     $sendTime->msgType = "1";
-    $sendTime->msgStr = $current_time;
+    $sendTime->msgStr = 'username: '. $username .' hour: '. $timeHour .' min: '. $timeMin.' sec: ' . $timeSec .' time: '. $current_time;
   }
   catch(Exception $ex)
   {

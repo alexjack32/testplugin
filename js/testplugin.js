@@ -6,7 +6,7 @@ jQuery.noConflict();
     var hourVal=0;
     var minVal=5;
     var secVal=0;
-    var userName = $('#CTtimename');
+    var userName;
     var hourStr;
     var minStr;
     var secStr;
@@ -41,9 +41,10 @@ jQuery.noConflict();
     function getCTtime()
     {   
        
-        hourVal = $("#CThour").val();
-        minVal = $("#CTminute").val();
-        secVal = $("#CTsecond").val();
+        hourVal = $("#CTsethour").val();
+        minVal = $("#CTsetmin").val();
+        secVal = $("#CTsetsec").val();
+        userName = $('#CTtimename').val()
         //stopCTtimer();
         $.ajax(
           {
